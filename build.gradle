@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile group: 'org.bitcoinj', name: 'bitcoinj-core', version: '0.14.4'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.22'
+}
